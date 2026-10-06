@@ -1,11 +1,11 @@
 h1 { 
     color: #333;
-    size: 20px;
+    font-size: 20px;
 }
 
 h2 {
     color: #666;
-    size: 16px;
+    font-size: 16px;
 }
 
 /*Fuente para todo el doc*/
@@ -21,5 +21,68 @@ img {
 
 p { 
     color: #000;
-    size: 16px;
+    font-size: 16px;
+}
+
+li {
+    color: #000;
+    font-size: 16px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+/*No se que es border collapse*/
+
+
+th, td {
+    border:1px solid black;
+    padding:  10px;
+}
+/*Estp no tengo nidea que es*/
+
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th { 
+    color: white;
+    font-size: 16px
+}
+
+/*link color and size*/
+a { 
+    color: blue;
+    font-size: 16px;
+}
+
+thead { 
+    background-color: #666;
+}
+
+tbody {
+    background-color: #fff;
+}
+
+tbody td {
+    color: #000;
+    font-size: 16px;
+}
+
+tfoot {
+    background-color: #ccc;
+}
+
+
+tfoot td {
+    color: #000;
+    font-size: 16px;
+}
+
+ caption {
+    color: #000;
+    font-size: 14px;
 }
