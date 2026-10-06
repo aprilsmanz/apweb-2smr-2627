@@ -1,0 +1,25 @@
+h1 { 
+    color: #333;
+    size: 20px;
+}
+
+h2 {
+    color: #666;
+    size: 16px;
+}
+
+/*Fuente para todo el doc*/
+body { 
+    font-family: "Times New Roman", 'Times New Roman', Times, serif;
+}
+
+/*Imagen*/
+img { 
+    width: 400px;
+    height: 200px;
+}
+
+p { 
+    color: #000;
+    size: 16px;
+}
