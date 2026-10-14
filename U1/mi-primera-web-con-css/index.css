@@ -1,0 +1,138 @@
+
+
+/* Resets */
+* {
+    box-sizing: border-box; /* Asegura que el padding y los bordes no aumenten el ancho/alto total del elemento */
+}
+
+/***********************************/
+/* Estilos del body                */
+/***********************************/
+body {
+    /* Estos son los estilos que van a hacer que el body se configure correctamente */
+    min-height: 100vh;  /* Hace que el body mida como mínimo toda la altura visible del navegador. 100vh = 100% de la altura del viewport (la ventana visible del navegador)*/
+
+    /* En navegadores modernos puedes utilizar:
+    min-height: 100dvh;
+    dvh (dynamic viewport height) resuelve mejor algunos problemas de móviles, cuando el usuario hace scroll y los navegadores ocultan y muestran la barra del navegador. */
+    margin: 0;          /* Elimina el margen por defecto de todos los elementos */
+    padding: 0;         /* Elimina el relleno por defecto de todos los elementos */
+
+    display: flex;                      /* Utiliza Flexbox para alinear los elementos de la lista en una fila */
+    flex-direction: column;             /* Los elementos flexibles hijos (cabecera, navegación, principal, etc.) los alinea verticalmente */
+    font-family: 'Arial', sans-serif;   /* Define la fuente principal de la página */
+    line-height: 1.6;                   /* Establece la altura de línea (espacio entre líneas de texto) */
+    background-color: #F9F9F9;        /* Aplica un color de fondo claro al cuerpo de la página */
+    color: #333;                      /* Define el color del texto principal en gris oscuro */
+}
+
+/************************/
+/* Estilos para el main */
+/************************/
+
+main {
+    flex: 1;        /* ¡¡¡IMPORTANTE!!! Hace que la etiqueta main crezca para llenar el espacio disponible libre. Aunque main tenga solamente una línea de contenido, se expande y empuja el footer hacia abajo */
+    /* Prueba a quitar la línea de flex: 1; para ver qué ocurre */
+    padding: 0 2rem 2rem 2rem;  /* Añade un relleno de 2rem alrededor del contenido principal */
+}
+
+/***************************************/
+/* Estilos de la cabecera de la página */
+/***************************************/
+
+header {
+    background-color: #4A90E2;  /* Establece un color de fondo azul para la cabecera */
+    color: white;               /* Define el color del texto de la cabecera como blanco */
+    text-align: center;           /* Centra horizontalmente el texto dentro de la cabecera */
+}
+
+header h1 {
+    font-size: 2rem;        /* Define el tamaño de la fuente del título principal */
+    font-weight: normal;    /* Establece el peso de la fuente en normal (no en negrita) */
+}
+
+/*********************************/
+/* Estilos para el pie de página */
+/*********************************/
+
+footer {
+    background-color: #4A90E2;  /* Aplica el mismo color azul de la cabecera al pie de página */
+    color: white;               /* Establece el color del texto del pie de página en blanco */
+    text-align: center;           /* Centra el texto en el pie de página */
+    font-size: 0.9rem;            /* Define un tamaño de fuente más pequeño para el texto del pie de página */
+}
+
+/************************************/
+/* Estilos para títulos y párrafos */
+/************************************/
+
+h2 {
+    color: #4A90E2;                     /* Define el color de los títulos de segundo nivel */
+    font-size: 1.8rem;                    /* Establece el tamaño de la fuente del título */
+    border-bottom: 2px solid #4A90E2;   /* Añade una línea azul debajo del título */
+    padding-bottom: 0.5rem;               /* Añade espacio entre el texto y la línea inferior */
+}
+
+h3 {
+    color: #555;              /* Define el color de los títulos de tercer nivel */
+    font-size: 1.4rem;          /* Establece el tamaño de la fuente del título */
+}
+
+p {
+    font-size: 1rem;            /* Define el tamaño de la fuente de los párrafos */
+    margin-bottom: 1rem;        /* Añade espacio debajo de cada párrafo */
+}
+
+
+/************************/
+/* Estilos para enlaces */
+/************************/
+
+a {
+    color: #4A90E2;             /* Define el color azul de los enlaces */
+    text-decoration: none;        /* Elimina el subrayado que tienen los enlaces por defecto */
+    font-weight: bold;            /* Muestra el texto del enlace en negrita */
+}
+
+a:hover {
+    color: #E67E22;             /* Cambia el color del enlace cuando el ratón pasa por encima */
+    text-decoration: underline;   /* Añade un subrayado al pasar el ratón por encima */
+}
+
+
+/************************/
+/* Estilos para listas */
+/************************/
+
+ul {
+    list-style-type: square;    /* Cambia las viñetas circulares por cuadrados */
+    padding-left: 2rem;         /* Añade espacio a la izquierda para separar la lista del margen */
+}
+
+ol {
+    list-style-type: decimal;   /* Utiliza números para indicar los elementos de la lista */
+    padding-left: 2rem;         /* Añade espacio a la izquierda para separar la lista del margen */
+}
+
+li {
+    margin-bottom: 0.5rem;      /* Añade espacio entre los diferentes elementos de las listas */
+}
+
+li::marker {
+    color: #4A90E2;           /* Cambia el color de los marcadores de las listas */
+    font-weight: bold;          /* Muestra los marcadores de las listas en negrita */
+}
+
+dl {
+    margin: 1rem 0;             /* Añade espacio antes y después de la lista de definiciones */
+}
+
+dt {
+    color: #4A90E2;           /* Define el color del término que se está definiendo */
+    font-weight: bold;          /* Muestra el término en negrita para destacarlo */
+}
+
+dd {
+    margin-left: 2rem;         /* Añade sangría al texto de la definición */
+    margin-bottom: 0.75rem;    /* Añade espacio entre las diferentes definiciones */
+}
