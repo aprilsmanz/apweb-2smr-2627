@@ -1,0 +1,43 @@
+
+
+h2 {
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+h1 {
+    color: red;
+}
+
+.azúl { 
+    color: blue;
+}
+
+.verde { 
+    color: green;
+}
+
+.box {
+    background-color: gray;
+}
+
+.box2 {
+    background-color: gray;
+}
+
+.border { border: 3px solid black;
+
+}
+
+
+hr { 
+    position: relative; 
+    margin-bottom: -20px;
+    color: black;
+}
+
+/*vale ya lo he averiguado*/
+
