@@ -1,0 +1,156 @@
+<!--April Manzaneque
+
+NOtas-->
+
+<!--usar metadato para nombre-->
+
+
+<!--
+- encabezado <header> Titulo Recetas de cocina
+    
+sección principal <main>
+
+aquí una caja para las recetas con más por dentro
+
+
+CAJA PRINCIPAL: receta
+con h1
+
+con imágen de receta. en una caja llamada imágen-receta como texto alternativo. 
+
+
+otra dentro llamada características, llamada así de un textp que sea Caracterísitcas en un texto de características en un h2 y lista desordenada de dificultad, duración, calorías,... 
+
+siguiente caja será de los ingredientes, se llamará ingredientes y tendrá:
+
+- texto con ingredientes en un h2
+- tabla con los ingredientes, al menos 2 columnas, con encabezado de tabla y cuerpo de tabla. 
+
+y una caja de elaboración que se llama así con un texto que sea Elaboración en un h2 
+la elaboración de la receta en un párrafo 
+
+
+y el pie de página <footer> con texto copyright -->
+
+
+
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <!--meta name sirve para nombrar el fichero-->
+                <meta name="April Manzaneque">
+                <!--link rel sirve para relacionar este archivo con uno de css-->
+                <link rel="stylesheet" href="estilos.css">
+                <!--title nombra la página web en la ventana-->
+                <title>Recetas de cocina</title>
+                
+            </head>
+
+            <header>
+                <!--div class son las cajas de niveles que creo-->
+                <!--Título-->
+                <div class="receta">
+                 <h1> Recetas de cocina </h1>
+                </div>
+            </header>
+
+            <!--Cuerpo del contenido-->
+            <main>
+                <body>
+
+                    <!--imágen-->
+                <div class="imágen-receta">
+                    <h1> Patatas fritas </h1>
+                    <image src="imágenes/Patatas-fritas-al-ajillo.jpg" alt = imagen-receta> </image>
+                    
+                </div>
+
+                <!--características-->
+                <div class="características">
+                    <h2> Características </h2>
+
+                    <ul> 
+                        <li> Dificultad: fácil </li>
+                        <li>Raciones: 2-3</li>
+                        <li>Tiempo: 25 minutos</li>
+                        <li>Coste: bajo</li>
+                    </ul>
+
+                </div>
+
+                <!--Ingredientes-->
+                <div class="ingredientes"> 
+                    <h2> Ingredientes </h2>
+
+
+                    <!--tabla-->
+                <table>
+                    
+                        <thead>
+                            <th>Ingrediente</th> 
+                            <th>Cantidad</th>
+                        </thead>
+                    <tbody>
+                            <tr>
+                                <td>Patatas</td>
+                                <td>300 g</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Ajo</td>
+                                <td>1 o 2 dientes</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Aceite de oliva</td>
+                                <td>500ml</td>
+                            </tr>
+
+                            <tr>
+                                <td>Sal y Pimienta </td>
+                                <td> Al gusto</td>
+                            </tr>
+                            
+                    
+                       
+                    </tbody>
+                </table>
+                    
+                </div>
+            
+                <!--elaboración-->
+            <div class="elaboración">
+                <h2>Elaboración</h2>
+                <p>Las patatas fritas son uno de los acompañamientos más populares y deliciosos. Pela las patatas y córtalas en tiras del grosor deseado. Calienta el aceite a fuego medio-alto. Cuando esté bien caliente, añade las patatas (y los ajos si los usas) en tandas, fríelas hasta que estén doradas y crujientes, escurre sobre papel y sazona al gusto.</p>
+
+            </div>
+
+            <!--pie de página-->
+            <footer> © 2026 Recetas Caseras. Todos los derechos reservados. </footer>
+                </body>
+
+            </main>
+
+
+
+
+
+
+
+
+            </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

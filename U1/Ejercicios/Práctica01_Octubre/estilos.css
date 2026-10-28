@@ -1,0 +1,50 @@
+/*
+Esto es un comentario
+
+Tengo que poner fondo amarillento a toda la página.
+Centrar el contenido que corresponda.
+Establecer márgenes y espacios para separar las cajas.
+
+
+HEADER
+El header debe ser naranja, letras blancas, centrar el título, forma rectángulo relleno de naranja.
+
+
+
+TÍTULO de receta y la imágen
+Título en naranja, centrada, la imágen también.
+
+
+CARACTERÍSITICAS
+Título en naranja, palabras en la lista igual.
+
+
+INGREDIENTES Y TABLA
+Titulo naranja, centrado, fodo naranja y texto blanco en los encabezados, alternar filas del cuerpo entre blanco y gris claro.
+
+
+ELABORACIÓN
+Titulo naranja, texto negro
+
+FOOTER  
+fondo negro, letras blancas.
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+    list-style-type: square; color: black; }
