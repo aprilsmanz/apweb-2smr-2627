@@ -35,34 +35,36 @@ body {background-color: beige;}
 h1 { text-align:center; font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow'; color: white;
 background-color: orange; padding: 10px;}
 
-main { background-color: white; margin-top: 5%; border-radius: 3%;}
+main { background-color: white; margin-top: 5%; border-radius: 3%; margin-bottom: 3%; margin-top: 3% ; margin-bottom: 3%; margin-left: 3%; margin-right: 8%; text-align:center justify;}
 
-ul {list-style-type: square;}
+ul {list-style-type: square; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: small;}
 span {color: orange;}
 
 h2 {text-align:center; color: orange; font-family: 'Franklin Gothic Medium', 'Arial Narrow';
 margin-bottom: 0%; margin-top: 5%;}
 
+footer {text-align: center; padding:10px; background-color: black; color: white; font-family:  'Franklin Gothic Medium', 'Arial Narrow'; font-size: 13px}
 
-img {margin: auto: 300px; height: 300px; }
+img {size: 20%; height: 300px;padding-right: 10%; padding-left: 10%}
 
+/*no funciona imagen, falta centrar, falta márgenes en todo el body, */ 
 
 table {
+    align-self: auto;
     border: 100px; color: black;
 }
 th { text-align: center; color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow'; 
 background-color: orange; padding: 10px;}
 
-td {text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow'; background-color: white; padding: 10px };
-
-tr { background-color: gray; border: 20px ;}
+td {text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow'; background-color: rgb(238, 237, 237); padding: 10px };
 
 
+tbody { color: black } 
 
 h3 {color: orange; font-family: 'Franklin Gothic Medium', 'Arial Narrow'; size: 100px;}
 
 
-footer { padding:10px; background-color:  black; color: white; font-family:  'Franklin Gothic Medium', 'Arial Narrow'; font-size: 13px  }
+
 
 p { font-family: 'Franklin Gothic Medium', 'Arial Narrow';
 font-size: 15px; }
