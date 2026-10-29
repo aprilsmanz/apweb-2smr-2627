@@ -30,29 +30,39 @@ FOOTER
 fondo negro, letras blancas.
 */
 
-text {font-family: 'Franklin Gothic Medium', 'Arial Narrow';}
-background {color: beige;}
+body {background-color: beige;}
 
 h1 { text-align:center; font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow'; color: white;
 background-color: orange; padding: 10px;}
 
+main { background-color: white; margin-top: 5%; border-radius: 3%;}
 
-h2 {text-align:center; color: orange; font-family: 'Franklin Gothic Medium', 'Arial Narrow'; 
+ul {list-style-type: square;}
+span {color: orange;}
+
+h2 {text-align:center; color: orange; font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+margin-bottom: 0%; margin-top: 5%;}
+
+
+img {margin: auto: 300px; height: 300px; }
+
+
+table {
+    border: 100px; color: black;
 }
-
-
-
 th { text-align: center; color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow'; 
 background-color: orange; padding: 10px;}
 
-td {text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow'; padding: 10px };
+td {text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow'; background-color: white; padding: 10px };
 
-ul { list-style-type: square;}
+tr { background-color: gray; border: 20px ;}
 
-h3 { color: orange; font-family: 'Franklin Gothic Medium', 'Arial Narrow'; size: 100px;}
 
-img {size: 30px; margin: 20px; position: center;}
 
-footer { font-family: 'Franklin Gothic Medium', 'Arial Narrow'; }
+h3 {color: orange; font-family: 'Franklin Gothic Medium', 'Arial Narrow'; size: 100px;}
 
-p { font-family: 'Franklin Gothic Medium', 'Arial Narrow'; }
+
+footer { padding:10px; background-color:  black; color: white; font-family:  'Franklin Gothic Medium', 'Arial Narrow'; font-size: 13px  }
+
+p { font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+font-size: 15px; }
