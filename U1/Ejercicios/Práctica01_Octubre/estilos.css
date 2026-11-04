@@ -46,6 +46,7 @@ span {color: orange;}
 h2 {text-align:center; color: orange; font-family: 'Franklin Gothic Medium', 'Arial Narrow'; margin-bottom:0px;margin-top: 0px;
 }
 
+
 footer {text-align: center; padding:15px; background-color: black; color: white; font-family:  'Franklin Gothic Medium', 'Arial Narrow'; font-size: 13px; font-weight: 50;}
 
 /*no logro centrar la imágen*/ 
@@ -65,7 +66,28 @@ background-color: orange; padding: 10px; font-weight: 100;}
 
 td {text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow'; background-color: rgb(238, 237, 237); padding: 10px }
 
+ul { list-style-type: square; font-family: 'Franklin Gothic Medium', 'Arial Narrow'; }
+
+
 
 
 p { font-family: 'Franklin Gothic Medium', 'Arial Narrow';
 font-size: 15px; font-weight: 100;}
+
+td {text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow'; padding: 10px };
+
+h3 { color: orange; font-family: 'Franklin Gothic Medium', 'Arial Narrow'; size: 100px;}
+
+img {size: 30px; margin: 20px; position: center;}
+
+footer { font-family: 'Franklin Gothic Medium', 'Arial Narrow'; }
+
+p { font-family: 'Franklin Gothic Medium', 'Arial Narrow'; }
+
+
+ul {
+    list-style-type: square;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+
